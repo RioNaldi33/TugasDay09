@@ -46,7 +46,6 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<Register> call, Response<Register> response) {
                 if (response.isSuccessful() && response.body() != null){
-//                    Log.d("tes", response.toString());
                     Snackbar.make(findViewById(android.R.id.content), "Akun berhasil dibuat", Snackbar.LENGTH_SHORT).show();
                     Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
                     startActivity(intent);
