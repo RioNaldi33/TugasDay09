@@ -45,7 +45,7 @@
             android:id="@+id/ivPassword"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:src="@drawable/baseline_admin_panel_settings_24"/>
+            android:src="@drawable/baseline_app_blocking_24"/>
         <EditText
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
