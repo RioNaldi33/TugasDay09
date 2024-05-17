@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">TugasDay09</string>
+    <string name="already_have_account_login_here">Already Have Account? Login Here</string>
+    <string name="register">REGISTER</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="make_your_account">MAKE YOUR ACCOUNT</string>
+    <string name="please_login">PLEASE LOGIN</string>
+    <string name="login">LOGIN</string>
+    <string name="create_your_account">Create Your Account</string>
 </resources>

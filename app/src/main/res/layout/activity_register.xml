@@ -13,10 +13,10 @@
         android:id="@+id/tvMya"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MAKE YOUR ACCOUNT"
+        android:text="@string/make_your_account"
         android:gravity="center"
         android:textStyle="bold"
-        android:textSize="24dp"/>
+        android:textSize="24sp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,8 +32,8 @@
             android:id="@+id/etUsername"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:textSize="16dp"
-            android:hint="UserName" />
+            android:textSize="16sp"
+            android:hint="@string/username" />
     </LinearLayout>
 
     <LinearLayout
@@ -50,8 +50,8 @@
             android:id="@+id/etName"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:textSize="16dp"
-            android:hint="Name" />
+            android:textSize="16sp"
+            android:hint="@string/name" />
     </LinearLayout>
 
     <LinearLayout
@@ -69,8 +69,8 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:inputType="textPassword"
-            android:textSize="16dp"
-            android:hint="Password" />
+            android:textSize="16sp"
+            android:hint="@string/password" />
     </LinearLayout>
 
     <Button
@@ -79,15 +79,15 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
-        android:text="REGISTER"/>
+        android:text="@string/register"/>
 
     <TextView
         android:id="@+id/tvBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Already Have Account? Login Here"
+        android:text="@string/already_have_account_login_here"
         android:gravity="center"
         android:layout_marginTop="16dp"
-        android:textSize="15dp"/>
+        android:textSize="16sp"/>
 
 </LinearLayout>
